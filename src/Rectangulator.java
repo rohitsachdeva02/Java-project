@@ -4,7 +4,9 @@ public class Rectangulator {
     int width = Integer.parseInt(args[1]);
 
     Rectangle myRectangle = new Rectangle(length, width);
-    String output = String.format(****Your Rectangle *** \n\n Length:%d\n Width:%d \n Area:%d \n Perimeter: %d \n ", myRectangle.length, myRectangle.width, myRectangle.getArea(), myRectangle.getPerimeter());
+
+    String output = String.format("*** Your Rectangle ***\n\nLength: %d\nWidth: %d\nArea: %d\nPerimeter: %d\n\n", myRectangle.length, myRectangle.width, myRectangle.getArea(), myRectangle.getPerimeter());
+
     System.out.println(output);
   }
 }
